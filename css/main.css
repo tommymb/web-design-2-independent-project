@@ -1,0 +1,234 @@
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+.logo {
+  font-family: 'Biryani', sans-serif;
+  font-weight: 900;
+}
+
+.footer {
+  text-align: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #fc7d74;
+  border-color: #fc7d74;
+  border-radius: 50px;
+}
+
+.section-dark {
+  background-color: #122c45;
+}
+
+nav {
+  font-weight: 500;
+}
+
+a {
+  color: #fff;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.ome {
+  font-weight: 800;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  font-weight: 800;
+  color: #4f5e78;
+}
+
+h2 {
+  font-weight: normal;
+  color: #4f5e78;
+}
+
+h3 {
+  font-weight: bold;
+  color: #4f5e78;
+}
+
+h4 {
+  font-weight: 800;
+  color: #4f5e78;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.copyright {
+  color: #fff;
+}
+
+p {
+  color: #4f5e78;
+}
+
+.reviewbody {
+  font-style: italic;
+}
+
+.reviews {
+  background-color: #d4e2fa;
+}
+
+.pricing {
+  color: #fff;
+}
+
+.pricing-option {
+  background-color: #4f5e78;
+}
+
+.btn-ghost {
+  border-radius: 50px;
+}
+
+.btn-light {
+  background-color: #d4e2fa;
+  border-color: #4f5e78;
+}
+
+.btn-light:hover {
+  background-color: #4f5e78;
+  border-color: #4f5e78;
+}
+
+.btn-ghost:hover {
+  background-color: #1f4c78;
+}
+
+.btn:hover {
+  background-color: #b5615b;
+  border-color: #b5615b;
+}
+
+.blue-back {
+  background-color: #4f5e78;
+}
+
+.white {
+  color: #fff;
+}
+
+.dec-rem {
+  text-decoration: none;
+}
+
+legend {
+  color: #4f5e78;
+}
+
+label {
+  color: #4f5e78;
+}
+
+input {
+  background-color: #d4e2fa;
+  border-color: #4f5e78;
+}
+
+.psr {
+  position: relative;
+}
+
+.psa {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #4f5e78;
+  color: #fff;
+}
+
+.business {
+  max-width: 10em;
+  color: #4f5e78;
+}
+
+.free {
+  max-width: 10em;
+  color: #4f5e78;
+}
+
+.premium {
+  max-width: 30em;
+  color: #4f5e78;
+}
+
+table {
+  min-width: 50em;
+}
+
+.skip-links {
+  display: hidden;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .firstbtn {
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .toplogo {
+    text-align: left;
+  }
+
+  .footer {
+    text-align: left;
+  }
+
+  .nav-footer {
+    text-align: right;
+  }
+
+  .firstbtn {
+    visibility: visible;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .firstbtn {
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
